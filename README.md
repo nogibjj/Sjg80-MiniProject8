@@ -46,6 +46,9 @@ Here is an example of how to use the code to get the top 10 dates with the highe
 Bash
 python complex_query.py
 
+For more information: 
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/quickstart-create-templates-use-the-portal
+
 Output:
 
 SELECT TOP 10 Date, SUM(All Commodity Price Index) AS total_price_index FROM commodity-prices GROUP BY Date ORDER BY total_price_index DESC LIMIT 10;
