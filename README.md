@@ -17,9 +17,9 @@ To use the code I provided, you will need to have a MySQL database hosted in Azu
 Once you have a MySQL database hosted in Azure, you will need to install the following Python libraries:
 
 -------------------------
->pyodbc
->pandas
->dotenv
+pyodbc
+pandas
+dotenv
 -------------------------
 
 You can install these libraries using pip:
