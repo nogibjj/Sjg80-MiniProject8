@@ -16,22 +16,25 @@ To use the code I provided, you will need to have a MySQL database hosted in Azu
 
 Once you have a MySQL database hosted in Azure, you will need to install the following Python libraries:
 
-pyodbc
-pandas
-dotenv
+-------------------------
+>pyodbc
+>pandas
+>dotenv
+-------------------------
 
 You can install these libraries using pip:
 
-Bash
-pip install pyodbc pandas dotenv
+>Bash
+.pip install pyodbc pandas dotenv
 
 Once you have installed the required Python libraries, you can create a .env file in the root directory of your project. The .env file should contain the following environment variables:
 
-SERVER=<your_azure_server_name>
-DATABASE=<your_azure_database_name>
-USERNAME=<your_azure_database_username>
-PASSWORD=<your_azure_database_password>
-DRIVER={ODBC Driver 17 for SQL Server}
+>SERVER=<your_azure_server_name>
+>DATABASE=<your_azure_database_name>
+>USERNAME=<your_azure_database_username>
+>PASSWORD=<your_azure_database_password>
+>DRIVER={ODBC Driver 17 for SQL Server}
+
 You can replace the values in the above environment variables with the values for your Azure database.
 
 Once you have created the .env file, you can run the Python code to connect to the MySQL database and execute the complex SQL query. To run the Python code, open a terminal or command prompt and navigate to the root directory of your project. Then, run the following command:
