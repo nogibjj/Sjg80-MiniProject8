@@ -1,11 +1,11 @@
 # Sjg-MiniProject6
 
 
-#Project Description
+# Project Description
 
 In this project, I created a MySQL database hosted in Azure and connected to it. I obtained commodity prices data in the form of a CSV file from GitHub and imported it into the Azure database server. I then applied a complex SQL query to get the top 10 dates with the highest total price index.
 
-#Explanation of the SQL query
+# Explanation of the SQL query
 
 This SQL query is retrieving the top 10 dates with the highest total price index from the commodity-prices table. Here's a step-by-step explanation of what the query is doing:
 
