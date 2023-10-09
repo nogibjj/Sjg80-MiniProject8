@@ -1,4 +1,4 @@
-# Sjg-MiniProject6
+# Sjg-MiniProject6: Design a complex SQL query for a MySQL database and explain the results.
 
 
 # Project Description
