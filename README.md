@@ -1,5 +1,6 @@
 # Sjg-MiniProject6: Design a complex SQL query for a MySQL database and explain the results.
 
+[![Codespaces Prebuilds](https://github.com/nogibjj/Sjg-MiniProject6/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg)](https://github.com/nogibjj/Sjg-MiniProject6/actions/workflows/codespaces/create_codespaces_prebuilds)
 
 # Project Description
 
