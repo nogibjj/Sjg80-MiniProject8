@@ -39,6 +39,13 @@ Replace "example.user@gmail.com" with the email address you want to extract from
 
 View the Output: The script will display the words before the "@" symbol in the email address, execution time, memory usage, and CPU usage.
 
+# Results Python
 
-## Dependencies
-Python 3.x
+![Screenshot](images/Python.png)
+
+# Results Rust
+![Screenshot](images/Rust.png)
+
+# Conclusion
+Rust is much faster and more efficient than Python!
+
