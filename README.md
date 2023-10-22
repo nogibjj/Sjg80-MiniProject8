@@ -1,4 +1,6 @@
 # Sjg80-MiniProject-8
+[![Rust](https://github.com/nogibjj/Sjg80-MiniProject8/actions/workflows/rust.yml/badge.svg)](https://github.com/nogibjj/Sjg80-MiniProject8/actions/workflows/rust.yml)
+
 Python script for data processing in Rust, highlighting the improvements in speed and resource usage.
 
 # RUST Email Words Extractor
