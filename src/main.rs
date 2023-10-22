@@ -27,6 +27,6 @@ fn main() {
     let memory = virtual_memory().unwrap();
     let cpu_percent_collector = CpuPercentCollector::new().unwrap();
 
-    println!("Memory Usage: {} bytes", memory.resident());
+    println!("Memory Usage: {} bytes", memory.total());
     println!("CPU Usage: {:.2}% (1-second interval)", cpu_percent_collector.cpu_percent().unwrap());
 }
