@@ -47,5 +47,19 @@ View the Output: The script will display the words before the "@" symbol in the 
 ![Screenshot](images/Rust.png)
 
 # Conclusion
+
+Python:
+Words before @: ['example', 'user']
+Execution Time: 0.000003 seconds
+Memory Usage: 12582912 bytes
+CPU Usage: 39.40%
+
+Rust: 
+Words before @: ["example", "user"]
+Execution Time: 26µs
+CPU Usage: 0.00% (1-second interval)
+Memory Usage: 118150316032 bytes
+
+
 Rust is much faster and more efficient than Python!
 
