@@ -1,4 +1,5 @@
 use std::time::{Instant};
+use psutil::prelude::*;
 use psutil::memory::VirtualMemory;
 use psutil::cpu::CpuPercentCollector;
 
