@@ -46,9 +46,9 @@ View the Output: The script will display the words before the "@" symbol in the 
 # Results Rust
 ![Screenshot](images/Rust.png)
 
-# Conclusion
+## Conclusion
 
-Python:
+# Python:
 
 Words before @: ['example', 'user']
 
@@ -58,7 +58,7 @@ Memory Usage: 12582912 bytes
 
 CPU Usage: 39.40%
 
-Rust: 
+# Rust: 
 Words before @: ["example", "user"]
 
 Execution Time: 26µs
