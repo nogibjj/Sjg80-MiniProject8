@@ -28,7 +28,7 @@ fn main() {
     let cpu_percent_collector = CpuPercentCollector::new().unwrap();
 
     // Clone the CpuPercentCollector struct before calling the println!() macro
-    let cpu_percent_collector_clone = cpu_percent_collector.clone();
+    let mut cpu_percent_collector_clone = cpu_percent_collector.clone();
     println!("CPU Usage: {:.2}% (1-second interval)", cpu_percent_collector_clone.cpu_percent().unwrap());
 
     println!("Memory Usage: {} bytes", memory.total());
