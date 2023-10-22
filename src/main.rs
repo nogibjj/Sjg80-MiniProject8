@@ -1,6 +1,5 @@
 use std::time::{Instant};
-use psutil::prelude::*;
-use psutil::memory::get_virtual_memory;
+use psutil::memory::virtual_memory;
 use psutil::cpu::CpuPercentCollector;
 
 fn extract_words_from_email(email: &str) -> Vec<&str> {
@@ -29,5 +28,5 @@ fn main() {
     let cpu_percent_collector = CpuPercentCollector::new().unwrap();
 
     println!("Memory Usage: {} bytes", memory.resident());
-    println!("CPU Usage: {:.2}% (1-second interval)", cpu_percent_collector.percent().unwrap());
+    println!("CPU Usage: {:.2}% (1-second interval)", cpu_percent_collector.cpu_percent().unwrap());
 }
