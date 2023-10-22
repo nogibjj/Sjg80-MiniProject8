@@ -24,7 +24,7 @@ fn main() {
     println!("Execution Time: {:?}", end_time);
 
     // Measure resource usage
-    let memory = get_virtual_memory().unwrap();
+    let memory = virtual_memory().unwrap();
     let cpu_percent_collector = CpuPercentCollector::new().unwrap();
 
     println!("Memory Usage: {} bytes", memory.resident());
